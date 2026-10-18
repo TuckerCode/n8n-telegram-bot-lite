@@ -32,6 +32,11 @@ runs in Docker.
 - A small local model is cautious at the edges. [proof/README.md](proof/README.md) has a run where it got that
   wrong, left in on purpose.
 
+## More free templates, by email
+
+New free n8n templates go out to the email list first, with a short note on setting each one up:
+https://stats.sender.net/forms/dR630O/view
+
 ## The full version
 
 **Telegram AI Bot with Human Handoff** ($15) adds what this one leaves out. When a customer needs a person, it
