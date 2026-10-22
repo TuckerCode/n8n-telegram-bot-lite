@@ -3,8 +3,8 @@
 An n8n workflow that answers your customers on Telegram from notes you write, and only from those notes. If a
 question is not covered, it sends a sentence you choose instead of guessing.
 
-It runs on n8n's free self-hosted edition, and by default on a free local model through Ollama, so it costs
-nothing to run. OpenAI or Anthropic work too, with your own key. Built and tested on n8n 2.35.7.
+It runs on n8n's free self-hosted edition, and by default on a free local model through Ollama (`qwen3:4b-instruct`,
+Apache-2.0), so it costs nothing to run. OpenAI or Anthropic work too, with your own key. Built and tested on n8n 2.35.7.
 
 **Download:** [telegram-lite.zip](https://github.com/TuckerCode/n8n-telegram-bot-lite/releases/latest/download/telegram-lite.zip)
 (the workflow, the setup guide and six real test runs). The same files are in this repository.
@@ -29,8 +29,8 @@ runs in Docker.
 - **It does not hand a chat to a person.** When it cannot answer, the customer gets your sentence and nobody is
   told.
 - Text messages only, and it only knows your notes.
-- A small local model is cautious at the edges. [proof/README.md](proof/README.md) has a run where it got that
-  wrong, left in on purpose.
+- A small local model will get some questions wrong. [proof/README.md](proof/README.md) has every test run,
+  and the one the previous default model got wrong.
 
 ## More free templates, by email
 

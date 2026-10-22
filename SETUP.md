@@ -32,7 +32,7 @@ and pick the credential you just made.
 
 This is the only node you edit. Three fields matter:
 
-**ai_model** — `qwen2.5:3b` if you are using Ollama and have pulled that model. Any model you have works. On
+**ai_model** — `qwen3:4b-instruct` if you are using Ollama and have pulled that model. Any model you have works. On
 OpenAI or Anthropic, put their model name here instead.
 
 **business_name** — what you are called. It goes in the prompt.
@@ -91,7 +91,7 @@ Test it first, outside n8n:
 
 If that lists your models, Ollama is running. If it does not, start it and pull a model:
 
-    ollama pull qwen2.5:3b
+    ollama pull qwen3:4b-instruct
 
 ## 6. Turn it on and say hello
 
