@@ -35,7 +35,7 @@ runs in Docker.
 ## More free templates, by email
 
 New free n8n templates go out to the email list first, with a short note on setting each one up:
-https://stats.sender.net/forms/dR630O/view
+https://www.airankings.tech/free?ref=gh
 
 ## The full version
 
